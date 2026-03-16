@@ -1,1 +1,10 @@
+name: Verify Identity
 
+on:
+  push:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
